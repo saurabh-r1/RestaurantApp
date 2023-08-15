@@ -19,14 +19,14 @@
     width: 100%;
     height: 25rem;
     z-index: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .main-image img {
     width: 110%;
     height: 100%;
     object-fit: cover;
-    /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
   }
 
   .cart{
@@ -55,3 +55,13 @@
     padding: 2px 2px 2px 2px;
     background-color: #d63e02;
   }
+  #cards{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(37, 199, 37);
+    color: white;
+    z-index: 1;
+  }
+
+  

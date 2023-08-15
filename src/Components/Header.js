@@ -1,8 +1,9 @@
 import { Fragment } from "react";
 import "./Header.css";
-import HeaderImg from "./HeaderImg.jpg";
+import HeaderImg from "./assets/HeaderImg.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import MealsSummary from "./MealsSummary";
 
 const Header = (props) => {
   return (
@@ -20,6 +21,9 @@ const Header = (props) => {
       </header>
       <div className="main-image">
         <img src={HeaderImg} alt="restra_header_img" />
+        <div id="card">
+        <MealsSummary />
+        </div>
       </div>
     </Fragment>
   );
