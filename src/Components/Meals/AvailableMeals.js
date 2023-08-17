@@ -1,4 +1,4 @@
-// import Card from '../UI/Card';
+import Card from '../UI/Card';
 import MealsItem from './MealsItem/MealsItem';
 import './AvailableMeals.css';
 
@@ -42,9 +42,9 @@ const AvailableMeals = () => {
 
   return (
     <section className="meals">
-      {/* <Card> */}
+      <Card>
         <ul>{mealsList}</ul>
-      {/* </Card> */}
+      </Card>
     </section>
   );
 };
